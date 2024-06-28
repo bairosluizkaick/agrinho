@@ -1,3 +1,5 @@
+/* Estilos gerais */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,36 +8,68 @@ body {
     padding: 0;
 }
 
-header {
+/* Estilos para o cabeçalho */
+
+.header-rural {
     background-color: #78ab4e;
     color: #fff;
     padding: 1rem;
     text-align: center;
 }
 
-header nav ul {
+.title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav-menu {
+    margin-top: 1rem;
+}
+
+.nav-list {
     list-style-type: none;
     padding: 0;
 }
 
-header nav ul li {
-    display: inline;
+.nav-item {
+    display: inline-block;
     margin-right: 20px;
 }
 
-header nav ul li a {
+.nav-link {
     color: #fff;
     text-decoration: none;
 }
 
-section {
+/* Estilos para as seções */
+
+.section-rural {
     padding: 2rem;
     background-color: #fff;
     margin: 20px;
     border-radius: 5px;
 }
 
-footer {
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-content {
+    line-height: 1.8;
+}
+
+.section-list {
+    padding-left: 20px;
+}
+
+.section-item {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para o rodapé */
+
+.footer-rural {
     text-align: center;
     padding: 1rem;
     background-color: #78ab4e;
@@ -43,4 +77,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.footer-text {
+    font-size: 0.9rem;
 }
